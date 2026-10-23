@@ -40,7 +40,8 @@ try {
     # Existing shortcuts now launch the same native app; they cannot reopen v1.
     Copy-Item -LiteralPath dist/TwoNote.exe -Destination dist/TwoNoteServer.exe
     Copy-Item -LiteralPath THIRD_PARTY_NOTICES.md -Destination dist/THIRD_PARTY_NOTICES.md
-    $packageFiles = @('dist/TwoNote.exe', 'THIRD_PARTY_NOTICES.md', 'README.md')
+    $packageFiles = @('dist/TwoNote.exe', 'THIRD_PARTY_NOTICES.md', 'README.md',
+        'LICENSE.txt', 'LICENSE.ja.txt', 'INSTALL-NOTICE.en.txt', 'INSTALL-NOTICE.ja.txt')
     Compress-Archive -LiteralPath $packageFiles -DestinationPath dist/TwoNote-Windows.zip -Force
     Write-Host 'Built dist\TwoNote.exe (native desktop)'
 } finally {

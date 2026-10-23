@@ -8,6 +8,10 @@
 !/PUBLIC_SOURCE_MANIFEST.json
 !/THIRD_PARTY_NOTICES.md
 !/LICENSE
+!/LICENSE.txt
+!/LICENSE.ja.txt
+!/INSTALL-NOTICE.en.txt
+!/INSTALL-NOTICE.ja.txt
 !/desktop.py
 !/importer.py
 !/server.py

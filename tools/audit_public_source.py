@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 MANIFEST = "PUBLIC_SOURCE_MANIFEST.json"
-ROOT_NAMES = {".gitignore", ".gitattributes", "README.md", "PUBLICATION.md", MANIFEST, "THIRD_PARTY_NOTICES.md", "LICENSE", "desktop.py", "importer.py", "server.py", "tls.py", "requirements.txt", "requirements-onenote.txt", "requirements-server.txt"}
+ROOT_NAMES = {".gitignore", ".gitattributes", "README.md", "PUBLICATION.md", MANIFEST, "THIRD_PARTY_NOTICES.md", "LICENSE", "LICENSE.txt", "LICENSE.ja.txt", "INSTALL-NOTICE.en.txt", "INSTALL-NOTICE.ja.txt", "desktop.py", "importer.py", "server.py", "tls.py", "requirements.txt", "requirements-onenote.txt", "requirements-server.txt"}
 CONFIG_NAMES = {"android/README.md", "android/build_android.ps1", "android/build.gradle", "android/settings.gradle", "android/gradle.properties", "android/app/build.gradle"}
 SOURCE_TREES = {"twonote": {".py"}, "windows": {".py", ".ps1", ".spec", ".md"}, "tools": {".py", ".ps1"}, "tests": {".py", ".java"}, "docs": {".md"}, "android/app/src": {".java", ".xml"}}
 EXCLUDED_COMPONENTS = {".tools", "build", "dist", "data", "onenoteexportdata", "archive", "web", "__pycache__", ".gradle", ".aws", ".ssh", "attachments", "output"}

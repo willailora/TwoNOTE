@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 1008,
-      "sha256": "d9aafc6fe6cf6700594c77851c62df7d51c133618cc5909e09e4471df2ee046c"
+      "bytes": 1087,
+      "sha256": "c538ba88db570975f478333a79e1589ec003137cfe5d509df66024834dce891b"
     },
     {
       "path": "android/app/build.gradle",
@@ -168,14 +168,34 @@
       "sha256": "f4498f27e8be805aa12c8714e04ae26a993c11e0521bd705929009802b333cc2"
     },
     {
+      "path": "INSTALL-NOTICE.en.txt",
+      "bytes": 2133,
+      "sha256": "397d067ff0a502fdbdcafc0f4ad40f542896b3bb0d85dfc77a4577228a7388a3"
+    },
+    {
+      "path": "INSTALL-NOTICE.ja.txt",
+      "bytes": 2710,
+      "sha256": "7f0948678478ea928aea71608c279e74ad1d336f09cf572f0565b0e073fb2c9f"
+    },
+    {
+      "path": "LICENSE.ja.txt",
+      "bytes": 2967,
+      "sha256": "b61e3f38d2786fb3c9840a104d04517700e25f7e493858bff90fb6c5da67ee2c"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 2720,
+      "sha256": "cb142130bfd562c0ce7b68b377cbfd251c2a6482e680ff767da936d2239d88e0"
+    },
+    {
       "path": "PUBLICATION.md",
-      "bytes": 3238,
-      "sha256": "1c8c9d088718e9c903343908cea0a0f9fd65c09642cbba930d968e524b3829ad"
+      "bytes": 3575,
+      "sha256": "1e7aa0a2aacca80a954ee5f0258be51cc533a9c605a9e62e4bd7e37ac4d10f6d"
     },
     {
       "path": "README.md",
-      "bytes": 22096,
-      "sha256": "2479aec4ac16e5ff3959590df5bba3de277825ea8b87829e62cb26ef2b14461a"
+      "bytes": 22499,
+      "sha256": "7a02a86e720b0a32ac5e0b27b9dff80c321459f4e3d650ce5fa2cf6a197e02a3"
     },
     {
       "path": "requirements-onenote.txt",
@@ -344,8 +364,8 @@
     },
     {
       "path": "tools/audit_public_source.py",
-      "bytes": 7419,
-      "sha256": "85e476cf812005744380f8160746675354ae87cf5e872cafa3193ee71714c7d9"
+      "bytes": 7502,
+      "sha256": "a34a571871aeffe0d61cae99ac5e564315010b8bc2540e554c520e732576c85a"
     },
     {
       "path": "tools/bootstrap_android.ps1",
@@ -374,8 +394,8 @@
     },
     {
       "path": "tools/package_release.py",
-      "bytes": 7856,
-      "sha256": "ee4cb906a040a708627ab5abf44bb41bd67d0c25219f2f9e43b381f1d7d75692"
+      "bytes": 7943,
+      "sha256": "fd33e4b25f1a54342f352fd62855e33d7375a7d06ed296dc2e3257596da9a6c4"
     },
     {
       "path": "tools/prepare_public_source.py",
@@ -479,8 +499,8 @@
     },
     {
       "path": "windows/build_windows.ps1",
-      "bytes": 2849,
-      "sha256": "e8b75e32ebf2acd96e582e3afdb603f76f0e5ed975f8d3ec7ccf62fefbe0677c"
+      "bytes": 2940,
+      "sha256": "9f594bae4eda144448067d939fa72221b7e9955f4f88490c1828cc9aceb064ae"
     },
     {
       "path": "windows/README.md",

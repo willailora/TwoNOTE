@@ -2,7 +2,7 @@
 
 GitHub公開に備えた、ソースのみのスナップショットです。実行ファイルは同梱していません。Windows・Androidのビルド手順は [Windows版](windows/README.md) と [Android版](android/README.md) を参照してください。
 
-個人ノート・画像添付・OneNote原本・保管庫・認証情報・署名鍵・過去の作業履歴は含めていません。公開準備の状態とオフライン検査方法は [PUBLICATION.md](PUBLICATION.md) に記載しています。TwoNote自体の公開ライセンスは未選択です。
+個人ノート・画像添付・OneNote原本・保管庫・認証情報・署名鍵・過去の作業履歴は含めていません。公開準備の状態とオフライン検査方法は [PUBLICATION.md](PUBLICATION.md) に記載しています。TwoNote本体は個人・企業内で無料利用でき、寄付は任意です。有料再販は禁止し、改変版を含む無料再配布は条件付きで認めます。正式条件は [LICENSE.ja.txt](LICENSE.ja.txt) / [LICENSE.txt](LICENSE.txt)、導入前の注意は [日本語](INSTALL-NOTICE.ja.txt) / [English](INSTALL-NOTICE.en.txt) を参照してください。第三者ライブラリにはそれぞれのライセンスが適用されます。
 
 WindowsとAndroidでテキスト・画像を扱う、ローカル保存型のノートアプリです。Windows UIはPySide6（Qt）、AndroidはネイティブUIです。Tkinter・ブラウザ・WebViewは使いません。
 

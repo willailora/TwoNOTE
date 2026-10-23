@@ -1,0 +1,53 @@
+TwoNote Free Use and Free Redistribution License
+Revision: 2026-10-23
+
+1. Scope
+These terms apply only to the original TwoNote software and material controlled
+by its copyright holder(s). Third-party components retain their own licenses,
+as explained in section 6.
+
+2. Free use and modification
+You may use TwoNote free of charge for personal use and for internal business
+or organizational use, including commercial work. You may privately modify
+TwoNote. Donations are entirely optional and are not required to use it.
+
+3. No paid resale of TwoNote
+You may not sell or resell the TwoNote software, whether in its original form,
+in a modified form, or under a different name. This restriction applies to the
+software itself, not to notes, documents, or other outputs created by users.
+
+4. Free redistribution
+You may redistribute TwoNote free of charge, including modified or renamed
+versions, provided that you distribute the complete package, keep this license
+and all third-party notices and license texts with it, and retain the following
+support link in the redistributed package:
+https://ko-fi.com/ailorawill
+Keep the accompanying documentation with the package. Modification or renaming
+does not remove these conditions. No payment or donation may be required for
+the redistributed software.
+
+5. User content
+These terms do not claim ownership of users' notes, documents, or other
+outputs, and the software resale restriction does not apply to those outputs.
+
+6. Third-party rights
+Third-party software is governed independently by its respective licenses.
+Nothing in these terms restricts rights granted by those licenses, including
+rights to use, modify, redistribute, sell, replace, relink, or debug third-party
+components where their licenses permit such actions. If these terms conflict
+with a third-party license, that license controls for the relevant component.
+Consult THIRD_PARTY_NOTICES.md and the licenses directory. In particular, these
+terms do not prohibit reverse engineering for debugging modifications to
+LGPL-covered components or other actions permitted by the applicable LGPL.
+
+7. No warranty
+To the extent permitted by applicable law, TwoNote is provided "as is", without
+warranty, including warranties of merchantability, fitness for a particular
+purpose, or non-infringement. To the extent permitted by applicable law, its
+copyright holder(s) are not liable for loss or damage arising from its use.
+Nothing here excludes or limits rights or liability that cannot lawfully be
+excluded or limited under mandatory applicable law.
+
+Project/source: https://github.com/willailora/TwoNOTE
+Optional support: https://ko-fi.com/ailorawill
+The same terms are supplied in Japanese in LICENSE.ja.txt.

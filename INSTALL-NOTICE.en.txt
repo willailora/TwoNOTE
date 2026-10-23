@@ -1,0 +1,37 @@
+TwoNote: read before installing or using
+Revision: 2026-10-23
+
+Obtain the ZIP from the project's official distribution page and extract the
+entire package before use. Keep the documentation and licenses with it.
+Do not run the Windows executable directly from inside the ZIP.
+
+The Windows executable is unsigned. Windows may display a warning. Check the
+source of the download and the published SHA-256; if unsure, stop. Do not turn
+off Windows security protection to run the app. This package has not been
+verified on a real Windows machine as part of this repackaging.
+
+If you are concerned, review the publicly available source and dependencies
+and build the application yourself. Reviewing or self-building is not a safety
+guarantee. Source and build instructions:
+https://github.com/willailora/TwoNOTE
+If this link is not accessible, do not assume the source has been reviewed or
+that its availability has been established.
+
+Keep separate backups of original notes and imported OneNote files. Before
+using important data, use disposable test notes to check saving, closing and
+reopening the application, and backup restoration. Verify that text and images
+survive the workflow you intend to use. Keep the vault password separately;
+there is no password-reissue feature. Reinstalling is not a recovery method.
+
+Android: extract the APK from the ZIP and follow the device's installation
+instructions only after checking the distribution source. An existing release
+can be updated only if signing and version requirements match. Do not uninstall
+a working copy before safeguarding its notes: uninstalling may delete them.
+No Android installation, upgrade, or real-device test was performed during
+this repackaging. No EXE/APK was executed or rebuilt.
+
+The EXE/APK bytes are unchanged from the 2026-10-15 builds. This revision changes
+external documentation and packaging only. Read LICENSE.txt / LICENSE.ja.txt
+for the TwoNote terms, and retain all third-party licenses. Older embedded
+third-party notices remain applicable; the external license does not override
+third-party rights. Optional support: https://ko-fi.com/ailorawill

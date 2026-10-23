@@ -10,6 +10,7 @@ from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = (
+    "LICENSE.txt", "LICENSE.ja.txt", "INSTALL-NOTICE.en.txt", "INSTALL-NOTICE.ja.txt",
     ".gitignore", "README.md", "THIRD_PARTY_NOTICES.md", "desktop.py", "importer.py",
     "server.py", "tls.py", "requirements.txt", "requirements-onenote.txt", "requirements-server.txt",
     "android/README.md", "android/build_android.ps1", "android/build.gradle",

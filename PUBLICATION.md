@@ -34,6 +34,6 @@ python -B tools/audit_public_source.py
 
 ## 公開前に残っていること
 
-TwoNote自体の公開ライセンスは未選択です。`LICENSE` は作成していません。第三者ライブラリの情報は [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) に保持しています。
+TwoNote本体の条件は [LICENSE.ja.txt](LICENSE.ja.txt) / [LICENSE.txt](LICENSE.txt) に記載しています。個人・企業内の無料利用、任意寄付、条件付きの無料再配布を認め、本体の有料再販を禁止します。第三者の権利は制限せず、情報は [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) に保持しています。導入前の注意は [日本語](INSTALL-NOTICE.ja.txt) / [English](INSTALL-NOTICE.en.txt) を参照してください。
 
-この準備作業ではGitHubへのアップロードを行っていません。公開する場合は、このフォルダを対象に内容と履歴を確認してください。
+このソースは非公開リポジトリへ反映済みです。ソースの公開設定変更と配布ファイルの公開は別工程です。公開前に対象の内容・履歴と配布ファイルを確認してください。

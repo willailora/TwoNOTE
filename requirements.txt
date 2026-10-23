@@ -1,0 +1,6 @@
+cryptography==50.0.0
+Pillow==12.3.0
+qrcode==8.2
+pyinstaller==6.22.1
+PySide6==6.10.2
+aspose-note==26.3.2

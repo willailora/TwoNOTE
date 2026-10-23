@@ -1,0 +1,56 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.twonote.android"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.twonote.android"
+        minSdk 26
+        targetSdk 35
+        versionCode 20202
+        versionName "2.2.2"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.all {
+            systemProperty "robolectric.dependency.repo.url", "https://repo.maven.apache.org/maven2"
+        }
+    }
+
+    signingConfigs {
+        release {
+            if (System.getenv("TWONOTE_KEYSTORE")) {
+                storeFile file(System.getenv("TWONOTE_KEYSTORE"))
+                storePassword System.getenv("TWONOTE_STOREPASS")
+                keyAlias "twonote"
+                keyPassword System.getenv("TWONOTE_STOREPASS")
+            }
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+    implementation platform("org.jetbrains.kotlin:kotlin-bom:1.9.24")
+    implementation "androidx.appcompat:appcompat:1.7.0"
+    implementation "androidx.activity:activity:1.9.3"
+    implementation "androidx.biometric:biometric:1.1.0"
+    implementation "com.journeyapps:zxing-android-embedded:4.3.0"
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.robolectric:robolectric:4.16"
+}

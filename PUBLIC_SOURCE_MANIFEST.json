@@ -1,0 +1,496 @@
+{
+  "format": 1,
+  "kind": "source-only",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1008,
+      "sha256": "d9aafc6fe6cf6700594c77851c62df7d51c133618cc5909e09e4471df2ee046c"
+    },
+    {
+      "path": "android/app/build.gradle",
+      "bytes": 1550,
+      "sha256": "82a1a644c50e225fcf4a9238dafc14c6201bfa92b2697c8f69358342f063b80a"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 1534,
+      "sha256": "ee0dd3afb8a698279fc2c317159ceebbca818ce36feeb452c9a051da2e5a9c35"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/BiometricCipher.java",
+      "bytes": 1163,
+      "sha256": "84a443b7ed3eeab54a1ce1074b19e8059ca611ddc96e2441007f5b1297eff7bc"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/BiometricVault.java",
+      "bytes": 6103,
+      "sha256": "1c6152184dbfc593d9e640805b03a1a37fb24a0d33711ceefb918916e4276355"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/BlockPreview.java",
+      "bytes": 3461,
+      "sha256": "2a2b0b8c9caefa3c7760783a3efd3f5d9312c32733db3a47ab0298ab052248e2"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/CaptureProvider.java",
+      "bytes": 196,
+      "sha256": "40e7acd80a878d5edda0e7382feca0772b44964edc847c0bbf7bb76bb24cd894"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/InlineEditor.java",
+      "bytes": 5336,
+      "sha256": "a9008dae2b1208fe57a66665c443c7f11565eabe44ce2c2ac40ba8bc68ba1024"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/android/MainActivity.java",
+      "bytes": 81874,
+      "sha256": "2c75558463b032d1ed7106b22a632b7f063344a374d119b1376afde6625f75e9"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/BlockDraft.java",
+      "bytes": 1815,
+      "sha256": "19d6a11f78e258ceef3a99a53c82478ce0921e1533f6961ed8ae6ec183e37889"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/CaptureFiles.java",
+      "bytes": 2563,
+      "sha256": "d4d8b1901e6c45c7c934043e2980f21375f48b4c8a658701035e8d81a9d7e233"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/InlineBody.java",
+      "bytes": 2458,
+      "sha256": "c756aee2d58f03eb55aff5b436af6ca3ae340cfaefdb73bdb0475c8c075e6594"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/LocalVault.java",
+      "bytes": 33221,
+      "sha256": "698ab9ef8e2b132e607b53cd8be41fb6a7f2390da3cb9a267a81e104fc663744"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/NoteBlock.java",
+      "bytes": 5875,
+      "sha256": "edfa82a6c0907014c6b507a5a18443c92a84dd4d624e660b78c796b10940e120"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/PendingAttachment.java",
+      "bytes": 2645,
+      "sha256": "65f9f3b28d39824e7e6d8d15359d834b1f4a19de786e33cdd7e3c3f761559811"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/SyncClient.java",
+      "bytes": 7907,
+      "sha256": "b33f0243636b562d130f60975f80975a8e3608d624f9ccddba19c9b5c805825b"
+    },
+    {
+      "path": "android/app/src/main/java/com/twonote/core/TreeNavigation.java",
+      "bytes": 14126,
+      "sha256": "2b8814f6cec25f9bf9c680124eeace7218309841ddae643ebc03c5c9486870a3"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/twonote_icon.xml",
+      "bytes": 525,
+      "sha256": "a8b84a06a8e9e65225651be751821156199f10f242f8b719642b0f931f46fa8b"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "bytes": 347,
+      "sha256": "a15d6f69f12d3579d87e13ad151dbc45b7caf03e90231b0c06d33fbb7ada168c"
+    },
+    {
+      "path": "android/app/src/main/res/xml/capture_paths.xml",
+      "bytes": 171,
+      "sha256": "49cbbf49858357057aa768b9d70997e23e3145c58556ed319539cd2ba83f03a5"
+    },
+    {
+      "path": "android/app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 730,
+      "sha256": "a132681a28929e20b78ebf13cc9cd43ab45b75e1fff4b1a68124531a11f5e42a"
+    },
+    {
+      "path": "android/app/src/test/java/com/twonote/android/MainActivityTest.java",
+      "bytes": 5781,
+      "sha256": "0dcc36bf0d245acdc7f576cf385cfac928c2f7d5fb210df911f121add4bd12c1"
+    },
+    {
+      "path": "android/build.gradle",
+      "bytes": 73,
+      "sha256": "9779e64941ef00fdb75ecd9ccbf290bad2a4924ea0e1688bb1c617884e2753b6"
+    },
+    {
+      "path": "android/build_android.ps1",
+      "bytes": 3543,
+      "sha256": "59b6365dad86d79dfd58f6807ab4f941e7544928050fcbe64ab865d4cb09f7c9"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 109,
+      "sha256": "5e293da74a2f8bb01c8c66647aecd438a607a489b8380845efda9bf77a6ed178"
+    },
+    {
+      "path": "android/README.md",
+      "bytes": 15314,
+      "sha256": "658efd2bf9088e46119eaf4f461d0bcd7bd484895a2b3680a1b34487581d8fb9"
+    },
+    {
+      "path": "android/settings.gradle",
+      "bytes": 332,
+      "sha256": "8f5e6f5631a93cda97fda8a768d585c2303be22a9ec8ed5e858831632671b9c2"
+    },
+    {
+      "path": "desktop.py",
+      "bytes": 1101,
+      "sha256": "83a5efa5376f4bdf0864964f31cecb313755a39909e4dfd752432ba4ec697db5"
+    },
+    {
+      "path": "docs/DEMO_REVIEW.md",
+      "bytes": 3270,
+      "sha256": "ed8275b36738579ef82834b3ee6a45369c20180db340be24852f1f335ca3c87b"
+    },
+    {
+      "path": "docs/FORMAT_V2.md",
+      "bytes": 2684,
+      "sha256": "ce3397a7e7e374a217ba63da7a3cdf7e5f4e9faec677f0db6e9d2e13db580811"
+    },
+    {
+      "path": "docs/MIGRATION.md",
+      "bytes": 6564,
+      "sha256": "7a25000938fa1fd6ef5f75754273ee3eda47cd442e1856454e88d38d9cdb907b"
+    },
+    {
+      "path": "importer.py",
+      "bytes": 1693,
+      "sha256": "f4498f27e8be805aa12c8714e04ae26a993c11e0521bd705929009802b333cc2"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 3238,
+      "sha256": "1c8c9d088718e9c903343908cea0a0f9fd65c09642cbba930d968e524b3829ad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 22096,
+      "sha256": "2479aec4ac16e5ff3959590df5bba3de277825ea8b87829e62cb26ef2b14461a"
+    },
+    {
+      "path": "requirements-onenote.txt",
+      "bytes": 87,
+      "sha256": "ab9393f66a0e885480bf504f36e3923801a685417f35fd5a5d4cd1e26c032ead"
+    },
+    {
+      "path": "requirements-server.txt",
+      "bytes": 20,
+      "sha256": "69075054c6d3bf5e0104bbc5d72895f380f050216a76ee8978dc4fbfd62f95e8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 104,
+      "sha256": "0021786cea428cfc5500652752f379e3d8736a8ed33502d56b2dc6bded945374"
+    },
+    {
+      "path": "server.py",
+      "bytes": 160,
+      "sha256": "56f40b080e8297ec1c5f34e117a0101f865252c6289750ea085f3b13e01519d7"
+    },
+    {
+      "path": "tests/java/BiometricCipherProbe.java",
+      "bytes": 6876,
+      "sha256": "7d472655e0b996308fe8634a5cc9561c6867b7332e3eb6197961b3477d941e4a"
+    },
+    {
+      "path": "tests/java/BlockDraftProbe.java",
+      "bytes": 5178,
+      "sha256": "3f8f986726f4144e861af9443a083c21774009dd28cb114473de75207e48fe0a"
+    },
+    {
+      "path": "tests/java/CoreProbe.java",
+      "bytes": 4476,
+      "sha256": "092e58a6a8c13e8d752bd8a57d45f1df61149c14860a5b946beb8751770570ff"
+    },
+    {
+      "path": "tests/java/InlineBlockProbe.java",
+      "bytes": 4504,
+      "sha256": "8d542d4dea8531c2be3d9683e80f592f827b2f903fe4477e5d46cf4cbbb9f7f1"
+    },
+    {
+      "path": "tests/java/NavigationProbe.java",
+      "bytes": 7569,
+      "sha256": "28c90e9bc8068c9054c30e5238a42bc929cdcd78c88a97c61cd8fcd915ca4db6"
+    },
+    {
+      "path": "tests/java/PhotoAttachmentProbe.java",
+      "bytes": 6365,
+      "sha256": "35f25150ba6ea6eef39204c7bc9621c08a8b5e2f9c89702d9f69151d7974253d"
+    },
+    {
+      "path": "tests/java/ReviewRegressionProbe.java",
+      "bytes": 7289,
+      "sha256": "85d262822d028845ebc679d8527e1cc87d47d43303f5b06e5e8d05836aa09040"
+    },
+    {
+      "path": "tests/test_android_core.py",
+      "bytes": 9241,
+      "sha256": "6fb44e809848c5e254a73c250565535f30eb969386446d0908fa008668733841"
+    },
+    {
+      "path": "tests/test_android_photo_config.py",
+      "bytes": 1985,
+      "sha256": "e17952c453eb3181f3c4486ae544deaabf87ba3f945a1cdd3f42a1fdd2be361a"
+    },
+    {
+      "path": "tests/test_backup.py",
+      "bytes": 3091,
+      "sha256": "bd1378cce2e6c2193589c4132b3556e83e960fcb7da130c06068dc15a1dd1efe"
+    },
+    {
+      "path": "tests/test_conflict_resolution.py",
+      "bytes": 10181,
+      "sha256": "b23e4878b5cd394a027fb873f8dfc4ce4c70887844f62c8a1bd8501e33ed7d95"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 2694,
+      "sha256": "cd6de4be6948bf24a378952c6cd6f2bf70e2fe064ed74739a28b78e756945ea8"
+    },
+    {
+      "path": "tests/test_desktop_controls_logic.py",
+      "bytes": 15408,
+      "sha256": "a1bb8bec7432c7851f91dbb11ab2d74252dbeef0fc0712610d027be1c643c368"
+    },
+    {
+      "path": "tests/test_desktop_qt.py",
+      "bytes": 8180,
+      "sha256": "f29fb5db45d09fa011230d32b0ea361f931b816274719cd2f15486632400dc7d"
+    },
+    {
+      "path": "tests/test_import_regressions.py",
+      "bytes": 3502,
+      "sha256": "742ee1bf0638c3ded2d55fd2edc29a2b9461a8e4bde0a9febc12de140b560d2c"
+    },
+    {
+      "path": "tests/test_inline_body.py",
+      "bytes": 6889,
+      "sha256": "fb968f47828a4981ccb59aae72989e2bcef89cf64dbb3d922fe0971d8fc6b313"
+    },
+    {
+      "path": "tests/test_inline_desktop_logic.py",
+      "bytes": 2660,
+      "sha256": "94bb0ca73685b62ad2513fbef82a77602ea6ba4c7b33a7bc6d29f312c964d889"
+    },
+    {
+      "path": "tests/test_navigation.py",
+      "bytes": 15295,
+      "sha256": "ceb2730516c0ef51c67219e2077c2c254524e625786fa97fca7f583fb55becb7"
+    },
+    {
+      "path": "tests/test_onepkg.py",
+      "bytes": 4318,
+      "sha256": "feb21f23641d848e4f2eeb74428a997946bb5b8940abb130b2ca779bcdd0a960"
+    },
+    {
+      "path": "tests/test_preferences.py",
+      "bytes": 4282,
+      "sha256": "bcdde32ca817c8d618f4a50c2388bb4ae8a822f97bee320a1c1f0d2cb9587d79"
+    },
+    {
+      "path": "tests/test_recovery.py",
+      "bytes": 6892,
+      "sha256": "cd75e1099d79809bd7b48de36bfc1ea6e29bf5fde091bc07535c9a5ca119ef44"
+    },
+    {
+      "path": "tests/test_review_20261015.py",
+      "bytes": 8931,
+      "sha256": "42a969205185c36a4f97669cdeca3813c96272de46b928c9d417b82f4539bf10"
+    },
+    {
+      "path": "tests/test_review_fixes.py",
+      "bytes": 6031,
+      "sha256": "9f5477e3781b8d384848d03541bb5c5730503ab193ef51fbe80e8bfde10e6e99"
+    },
+    {
+      "path": "tests/test_tree_controls_logic.py",
+      "bytes": 8399,
+      "sha256": "54f23edf4b4c87101102b1740f4247db970b944304ae52d7923787804f4c883e"
+    },
+    {
+      "path": "tests/test_v2.py",
+      "bytes": 15536,
+      "sha256": "b5e1a1aa4479f88154da103e607c50876461dd1b42bb8b9f0bb68f2093fb5dcc"
+    },
+    {
+      "path": "tests/test_window_geometry_logic.py",
+      "bytes": 2152,
+      "sha256": "0aa9c29b70eaa590ff4b87c7fe6bf3bdb104547d9d4a99e5aad4ba1900eae86e"
+    },
+    {
+      "path": "tests/test_windows_unlock.py",
+      "bytes": 4019,
+      "sha256": "404e4ef00050387d28bba0c3dfd55a8b81bdeb0cbdee29e764426bc3185d66b4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1812,
+      "sha256": "88528fe04f433c67571feb5119a40a2e8a15994793047e77cf4fca9dccb2ca24"
+    },
+    {
+      "path": "tls.py",
+      "bytes": 2664,
+      "sha256": "ffecce5124bac2a49c97b1754f8d53ea53945625fdc489cb910526da8daaa2ad"
+    },
+    {
+      "path": "tools/audit_public_source.py",
+      "bytes": 7419,
+      "sha256": "85e476cf812005744380f8160746675354ae87cf5e872cafa3193ee71714c7d9"
+    },
+    {
+      "path": "tools/bootstrap_android.ps1",
+      "bytes": 3175,
+      "sha256": "8119735825ee92c6a612390141c9d676cbed641b1c1e9d2da11637f97ce5e176"
+    },
+    {
+      "path": "tools/build_icon.py",
+      "bytes": 592,
+      "sha256": "41fa3ada1a88ee0ec98b65a132dc5212e9b0fd0b3939a6211f28f031ebea2c2a"
+    },
+    {
+      "path": "tools/check_windows_dlls.py",
+      "bytes": 2750,
+      "sha256": "521d2e050943c59a529c82c1189ddd74439adac590c9ffd66fb9a8f117edd151"
+    },
+    {
+      "path": "tools/create_demo_vault.py",
+      "bytes": 4692,
+      "sha256": "5ff6f2f715ee3cd1d48952d6060d52e126df73c6bdf7c14c71fe693aeff8c814"
+    },
+    {
+      "path": "tools/inspect_onepkg_structure.py",
+      "bytes": 2583,
+      "sha256": "bc40ea8ad70e58adc6804a342eacc3ecfdf3254407f10761476a88cbf3a883a2"
+    },
+    {
+      "path": "tools/package_release.py",
+      "bytes": 7856,
+      "sha256": "ee4cb906a040a708627ab5abf44bb41bd67d0c25219f2f9e43b381f1d7d75692"
+    },
+    {
+      "path": "tools/prepare_public_source.py",
+      "bytes": 1605,
+      "sha256": "0de35fc4e789660912cd605d2a8bf49b889abd388b84147477c4c9de0ea75957"
+    },
+    {
+      "path": "tools/test_android_core.ps1",
+      "bytes": 2811,
+      "sha256": "572caa833a569de7eb16f2529c29a120c215b4e6d9c458a5c4ac48cfb94faa9a"
+    },
+    {
+      "path": "tools/test_android_ui.ps1",
+      "bytes": 662,
+      "sha256": "ddd553e79c04875d9e245d21b4ddb69b088b9994865579600d2ea13b4ee52ef6"
+    },
+    {
+      "path": "twonote/__init__.py",
+      "bytes": 100,
+      "sha256": "c804dbf24d81cf6f69d7bf95b92dbc4c775387cc9559ee52c2315f70e6cc96bd"
+    },
+    {
+      "path": "twonote/backup.py",
+      "bytes": 4775,
+      "sha256": "cb32af1d8ef039cbea47988f4f093f49fd36bf3b6b4c2d223d7523bf0bf07f78"
+    },
+    {
+      "path": "twonote/block_render.py",
+      "bytes": 2932,
+      "sha256": "8a4b98a935c2f8e14bc8b3516711ff952969c64ac5f02097623aad82b74e1eb5"
+    },
+    {
+      "path": "twonote/blocks.py",
+      "bytes": 5725,
+      "sha256": "cd5a2faa8529aef128cf6f018cfcf6e2e0d048aa5b33dda35bb97b3df48d56b2"
+    },
+    {
+      "path": "twonote/desktop.py",
+      "bytes": 82991,
+      "sha256": "f0b474a8f252856d9eab329b5cb68276e501a501914875169ab640504f7290c8"
+    },
+    {
+      "path": "twonote/diagnostics.py",
+      "bytes": 2657,
+      "sha256": "c5dc6cd238c8dcb5731fb4a1f3f8e6fa15be80c7daa9f462b27c390b33592b14"
+    },
+    {
+      "path": "twonote/importing.py",
+      "bytes": 19434,
+      "sha256": "43b5a8206200d95d977cad2dcb528360ea2771812df500edeb92c88068a16552"
+    },
+    {
+      "path": "twonote/inline.py",
+      "bytes": 1616,
+      "sha256": "c7bb14390620df64366befc3b9f94abbf0facfaeac8affea700afa091bd69613"
+    },
+    {
+      "path": "twonote/legacy.py",
+      "bytes": 10030,
+      "sha256": "987023ac0d9220563f4489d663b4283a465fb813baa65f9d4715df5c05aa841c"
+    },
+    {
+      "path": "twonote/navigation.py",
+      "bytes": 13079,
+      "sha256": "6f5f539d60ac3b2117c2eda3e2d651171fc18fffb6781fa5c5e45ef0451965d7"
+    },
+    {
+      "path": "twonote/paths.py",
+      "bytes": 1582,
+      "sha256": "97eacc2c7370ffc911b71b7703e211e3a00ddbe52e96734389738975466949e3"
+    },
+    {
+      "path": "twonote/preferences.py",
+      "bytes": 3004,
+      "sha256": "a97ab8f000ac99490f9eabde9754a1278400c13c8ca461c1b165671a0b06ea4e"
+    },
+    {
+      "path": "twonote/recovery.py",
+      "bytes": 2638,
+      "sha256": "43d22600da2e7d216191b90bc81484178fc818729f66ca4d8ef78363d19364c1"
+    },
+    {
+      "path": "twonote/sync.py",
+      "bytes": 17109,
+      "sha256": "1e79d155cbe33d7582416c79e1ff3b8af13dd05e649cb55833c27562a44dd547"
+    },
+    {
+      "path": "twonote/tree_widget.py",
+      "bytes": 5221,
+      "sha256": "249f1149fed974d03517f00efe97cf0cb71aa0569756f4e97a5f0922ef1f3d33"
+    },
+    {
+      "path": "twonote/vault.py",
+      "bytes": 22413,
+      "sha256": "b538cf5fee740733a7d5a5bbd3998b8223b23588e3555b8849fde920f25cf004"
+    },
+    {
+      "path": "twonote/windows_unlock.py",
+      "bytes": 4376,
+      "sha256": "18aabed97d1514d67162074367c1f3d18182715320994de834b0a54c399deddc"
+    },
+    {
+      "path": "windows/build_windows.ps1",
+      "bytes": 2849,
+      "sha256": "e8b75e32ebf2acd96e582e3afdb603f76f0e5ed975f8d3ec7ccf62fefbe0677c"
+    },
+    {
+      "path": "windows/README.md",
+      "bytes": 1839,
+      "sha256": "c238ddd5320044b226366611d4e23e0d39b73c3afe11a9e0372d54f41a4b4a09"
+    },
+    {
+      "path": "windows/TwoNote.spec",
+      "bytes": 1700,
+      "sha256": "97bcd16fc3b28511e1ff4952f10668c2fd84a91f02ba757c260bbdcf463d0cc2"
+    }
+  ]
+}

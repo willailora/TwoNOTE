@@ -1,0 +1,2 @@
+# Optional: direct read-only import of OneNote .one section files.
+aspose-note==26.3.2
